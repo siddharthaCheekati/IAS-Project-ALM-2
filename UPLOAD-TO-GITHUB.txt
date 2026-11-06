@@ -1,0 +1,13 @@
+GITHUB UPLOAD
+
+1. Extract ALM-2-Projects-GitHub.zip.
+2. The extracted folder is already named ALM-2-Projects. Do not rename it.
+3. In your IAS_3-1 repository, open the root (the screen showing ALM-1 and ALM-2-Projects).
+4. Use Add file > Upload files and drag the extracted ALM-2-Projects folder onto the upload page.
+5. Check that the paths start with ALM-2-Projects/CryptoVault, ALM-2-Projects/SecureTunnel, etc., then commit.
+
+If replacing the older version shown in your screenshot, the old static/ and templates/ folders are not used by this version. Do not move these new files into those folders. Uploading does not automatically remove old files; remove obsolete folders separately if you want a clean repository.
+
+Each website uses app.py, app.js, index.html, style.css, requirements.txt, and README.md together. No static/templates renaming is needed.
+
+Do not upload the ZIP itself or any generated data.sqlite3 files.
